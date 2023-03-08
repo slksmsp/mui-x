@@ -8,11 +8,11 @@ const plPLGrid: Partial<GridLocaleText> = {
   noResultsOverlayLabel: 'Nie znaleziono wyników.',
 
   // Density selector toolbar button text
-  toolbarDensity: 'Wysokość rzędu',
-  toolbarDensityLabel: 'Wysokość rzędu',
-  toolbarDensityCompact: 'Kompakt',
+  toolbarDensity: 'Wysokość wiersza',
+  toolbarDensityLabel: 'Wysokość wiersza',
+  toolbarDensityCompact: 'Kompaktowy',
   toolbarDensityStandard: 'Standard',
-  toolbarDensityComfortable: 'Komfort',
+  toolbarDensityComfortable: 'Szeroki',
 
   // Columns selector toolbar button text
   toolbarColumns: 'Kolumny',
@@ -26,7 +26,7 @@ const plPLGrid: Partial<GridLocaleText> = {
   toolbarFiltersTooltipActive: (count) => `Liczba aktywnych filtrów: ${count}`,
 
   // Quick filter toolbar field
-  toolbarQuickFilterPlaceholder: 'Wyszukaj…',
+  toolbarQuickFilterPlaceholder: 'Szukaj…',
   toolbarQuickFilterLabel: 'Szukaj',
   toolbarQuickFilterDeleteIconLabel: 'Wyczyść',
 
@@ -46,7 +46,7 @@ const plPLGrid: Partial<GridLocaleText> = {
 
   // Filter panel text
   filterPanelAddFilter: 'Dodaj filtr',
-  // filterPanelRemoveAll: 'Remove all',
+  filterPanelRemoveAll: 'Wyczyść wszystko',
   filterPanelDeleteIconLabel: 'Usuń',
   filterPanelLogicOperator: 'Operator logiczny',
   filterPanelOperator: 'Operator',
@@ -62,7 +62,7 @@ const plPLGrid: Partial<GridLocaleText> = {
   filterOperatorStartsWith: 'zaczyna się od',
   filterOperatorEndsWith: 'kończy się na',
   filterOperatorIs: 'równa się',
-  filterOperatorNot: 'różne',
+  filterOperatorNot: 'różne od',
   filterOperatorAfter: 'większe niż',
   filterOperatorOnOrAfter: 'większe lub równe',
   filterOperatorBefore: 'mniejsze niż',
@@ -79,7 +79,7 @@ const plPLGrid: Partial<GridLocaleText> = {
   // Column menu text
   columnMenuLabel: 'Menu',
   columnMenuShowColumns: 'Pokaż wszystkie kolumny',
-  // columnMenuManageColumns: 'Manage columns',
+  columnMenuManageColumns: 'Zarządzaj kolumnami',
   columnMenuFilter: 'Filtr',
   columnMenuHideColumn: 'Ukryj',
   columnMenuUnsort: 'Anuluj sortowanie',
@@ -131,7 +131,7 @@ const plPLGrid: Partial<GridLocaleText> = {
   unGroupColumn: (name) => `Rozgrupuj ${name}`,
 
   // Master/detail
-  // detailPanelToggle: 'Detail panel toggle',
+  detailPanelToggle: 'Widoczność Panelu Szczegółow',
   expandDetailPanel: 'Rozwiń',
   collapseDetailPanel: 'Zwiń',
 
@@ -139,12 +139,12 @@ const plPLGrid: Partial<GridLocaleText> = {
   rowReorderingHeaderName: 'Porządkowanie wierszy',
 
   // Aggregation
-  // aggregationMenuItemHeader: 'Aggregation',
-  // aggregationFunctionLabelSum: 'sum',
-  // aggregationFunctionLabelAvg: 'avg',
-  // aggregationFunctionLabelMin: 'min',
-  // aggregationFunctionLabelMax: 'max',
-  // aggregationFunctionLabelSize: 'size',
+  aggregationMenuItemHeader: 'Kalkulacja',
+  aggregationFunctionLabelSum: 'suma',
+  aggregationFunctionLabelAvg: 'średnia',
+  aggregationFunctionLabelMin: 'minimum',
+  aggregationFunctionLabelMax: 'maksimum',
+  aggregationFunctionLabelSize: 'wielkość',
 };
 
 export const plPL: Localization = getGridLocalization(plPLGrid, plPLCore);
